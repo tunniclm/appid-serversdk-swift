@@ -25,7 +25,7 @@ let package = Package(
     ],
     dependencies: [
       .package(url: "https://github.com/IBM-Swift/Kitura-Credentials.git", from: "2.0.0"),
-      .package(url: "https://github.com/IBM-Swift-Sunset/Kitura-Request.git", .upToNextMinor(from: "0.9.0")),
+      .package(url: "https://github.com/IBM-Swift/Kitura-Request.git", .upToNextMinor(from: "0.9.0")),
       .package(url: "https://github.com/ibm-bluemix-mobile-services/bluemix-simple-logger-swift.git", .upToNextMinor(from: "0.5.0")),
     ],
     targets: [
